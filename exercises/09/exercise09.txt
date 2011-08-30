@@ -1,0 +1,16 @@
+Exercise 9 (shell integration)
+--
+
+Create a execute_in_shell(command) that simply executes the given command 
+in your dos or unix shell, and returns the result as a string.
+
+Example:
+execute_in_shell("pwd")  => <prints current dir>	
+	
+	
+	
+BONUS: Create a method dir_contents(path) which lists the contents of
+the given directory. Use the shell directly instead of the Dir api in Ruby.
+
+Example:
+dir_contents("/usr/local")  =>  <list of files and directories at /usr/local directory>.

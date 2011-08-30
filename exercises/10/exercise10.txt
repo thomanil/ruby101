@@ -1,0 +1,13 @@
+Exercise 10 (filesystem)
+--
+
+Create a method recursive_xml_extension_to_txt(dir) which for a given directory finds 
+all the *.xml files within all its subdirectiries, 
+and for each of them renames them from *.xml to *.txt
+
+CAUTION! Don't run this on the root dir of your harddrive!
+	
+	
+BONUS: Turn it into a proper script. Send url and output file 
+path as arguments to script. Exit with a friendly usage text if user supplies
+wrong number of arguments. Also, write unit tests along the way. :) 

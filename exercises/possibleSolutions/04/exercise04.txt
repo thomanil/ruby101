@@ -1,0 +1,24 @@
+Exercise 4 (strings)
+--
+
+Create a method dummy_text(line_width, line_no) that returns a "filler text" 
+(lorem ipsum-style text or something other random) with line_no lines, line_width number of chars per line. 
+It doesn't have to support many or long lines: maybe up to 10 lines with max 30 chars per line.
+
+Example: dummy_text(20, 5)   =>		"Lorem ipsum dolor si\n
+									 t amet, consectetur \n
+									 adipisicing elit, se\n
+									 do eiusmod tempor in\n
+									 cididunt ut labore e\n"
+									
+									
+									
+BONUS: Create a similar method with an additional parameter: 
+dummy_text_long(line_width, line_no, words)
+The final parameter 'words' is an array of strings that the method pulls from at random to construct the dummy text. 
+The method now has to support arbitrary numbers of characters per line and lines total.
+
+Example: dummy_text_long(20, 300, ["jabba", "dabba", "doo"])   =>		"doo jabba doo jabba \n
+										 								 jabba doo dabba jabb\n 
+										 								 dabba jabba jabba do\n
+										 								 <... etc (300 lines)>

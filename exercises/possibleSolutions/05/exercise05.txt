@@ -1,0 +1,17 @@
+Exercise 5 (symbol, hash)
+--
+
+Create a hash(keys, values) method that takes 
+two arrays and returns a hash based on them. 
+One array contains the keys, the other the values. 
+
+Example:  
+to_hash([:firstname, :lastname], ["Tony", "Soprano"])   => { :firstname => "Tony", :lastname => "Soprano" }
+
+
+
+BONUS: Create the inverse method, to_array(hash) which takes a hash and returns two arrays,
+one containing the keys and the other containing the values.
+
+Example:  
+to_array({ :firstname => "Tony", :lastname => "Soprano" })  => [:firstname, :lastname], ["Tony", "Soprano"]

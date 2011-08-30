@@ -1,0 +1,14 @@
+Exercise 3 (arrays, ranges)
+--
+
+Create a method growth_spurt(items) that takes an array of integers, 
+and returns a corresponding array where each element is multiplied by 100.
+Example: 
+growth_spurt([3, 4, 6, 3, 5, 6, 12])   => [300, 400, 600, 300, 500, 600, 1200]
+
+
+BONUS: Create a similar method a_lucky_few(items, x, y). 
+It returns the item number x to item number y, and every item in between them. 
+Multiply these items by 100. Return the ones that were multiplied, discard the rest.
+
+a_lucky_few([3, 4, 6, 3, 5, 6, 12], 2, 4)   => [600, 300, 500]

@@ -1,0 +1,15 @@
+Exercise 6 (I/O)
+--
+
+
+Create a method create_html_file(path) which 
+creates a new file with some valid html markup, at the specified location.
+
+Example: create_html_file("C:\index.html")  => <c:\index.html created, containing some html markup>
+
+
+
+BONUS: Create a method create_lorem_ipsum_html_file(path, no_of_paragraphs) which 
+generates a html document containing the specified number of paragraphs of lorem ipsum text.
+
+Example: create_lorem_ipsum_html_file("C:\index.html", 3)  => <c:\index.thml created, containing 3 paragraphs of filler text>

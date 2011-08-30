@@ -1,0 +1,15 @@
+Exercise 2 (blocks, iterators)
+--
+
+Create a method that repeats a given string n times, with a comma between each instance. 
+You're only allowed to type ONE print-statement ('puts') in your code.
+
+Example: repeat("Hello world", 3) 	=>  "Hello world Hello world Hello world"
+			
+			
+			
+								
+BONUS: Add count to each occurrence of the string.
+
+Example: repeat("Hello world number", 3) 	=>  "Hello world number 1 Hello world number 2 Hello world number 3"
+

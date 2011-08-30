@@ -1,0 +1,19 @@
+Exercise 7 (environment)
+--
+
+Create a method lookup_env_variable(variable) which 
+prints the specified environment value to console.
+
+Example: 
+lookup_env_variable("PATH") 	 => <PATH env variable value>
+	
+
+	
+BONUS: turn it into a proper script which takes 
+exactly one param, the env value. If the user
+supplies the wrong number of arguments, print out 
+a helpful "usage" text and exit.
+
+Example:
+c:> ruby env_lookup.rb 			=> "This script looks up the value of an env variable. Usage: ruby script.rb ENV_VALUE_NAME"
+c:> ruby env_lookup.rb "PATH"	=> <prints PATH env variable value>

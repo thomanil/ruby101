@@ -1,0 +1,27 @@
+Exercise 8 (regex)
+--
+
+Create a method count_word(word) which counts number of times 
+the specified word occurs in the given text. 
+Use the =~ operator or Regexp.match() to accomplish it.
+	
+Example: 	
+	
+SEARCHED_TEXT = <<TEXT
+This is a line
+This is another line
+Third line coming up
+TEXT	
+	
+count_word(SEARCHED_TEXT, "line")	=>  3
+	
+	
+	
+	
+BONUS: Create a method word_occurs_at(word) 
+Make the method handle a multiline string/document, 
+return or print out the location (char position and line number) of each occurrence.
+
+Example:
+
+word_occurs_at(SEARCHED_TEXT, "line")  =>   [[10,1], [16,2], [6,3]]
